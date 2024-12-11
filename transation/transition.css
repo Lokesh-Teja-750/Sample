@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.outer > .inner{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s; */
+    transition: all 2s ease-in-out 0.2s;
+}
+
+.outer > .inner:hover{
+    box-shadow: -5px -5px 10px black;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+

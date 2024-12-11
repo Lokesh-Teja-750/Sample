@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navabar{
+    background-color: antiquewhite;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navabar > .cont1{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.navabar > .cont2 > ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navabar > .cont1 > span{
+    color: rgb(241, 13, 13);
+    font-size:30px ;
+    font-style: italic;
+}
+
+.cont2 > ul > li {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+
+    
+}
+
+.cont2 > ul > li:hover {
+    color: blueviolet;
+}
+
+.navabar > .cont3 > button{
+    padding: 10px 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-width: 0px;
+
+
+}
+
+#b1{
+    background-color: blue;
+    color: white;
+
+    
+}
+
+#b2{
+    background-color: rgb(122, 197, 10);
+    color: rgb(255, 255, 255);
+}
+
+.inner{
+    background-color: rgb(150, 111, 185);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.inner > .box{
+    border: 10px solid rgb(11, 11, 11);
+    width: 200px;
+    background-color: rgb(23, 83, 135);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.inner > .box:hover{
+    background-color: aqua;
+    box-shadow: -5px -5px 10px red;
+}

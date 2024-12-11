@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    padding: 10px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.box2{
+    padding: 20px;
+    border: 2px solid;
+    background-color: rgb(35, 50, 134);
+    float: right;
+}
+
+.box3{
+    padding: 10px;
+    height: 50px;
+    border: 2px solid;
+    background-color: rgb(19, 99, 106);
+    clear: both;
+    
+}
+
+.box4{
+    padding: 20px;
+    border: 2px solid;
+    background-color: rgb(134, 35, 45);
+}
+

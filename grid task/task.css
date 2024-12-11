@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background:linear-gradient(to right,black,rgb(145, 26, 26));
+}
+
+.inner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    justify-content: center;
+    align-content: center;
+    grid-auto-rows: 150px;
+
+}
+
+.container > .head{
+    color: aliceblue;
+    position: relative;
+}
+
+.head > h1{
+    position: absolute;
+    left: 40%;
+    transform: translateY(120px);
+    
+}
+
+.box{
+    border: 5px solid black;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#box1{
+    grid-row: span 2;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/2004391/pexels-photo-2004391.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: auto;`
+}   
+
+#box1:hover{
+    transform: translateY(20px);
+}
+
+#box2{
+    background-image: url("https://images.pexels.com/photos/29576293/pexels-photo-29576293/free-photo-of-dramatic-baltic-sea-pier-extending-over-rocky-coastline.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+}
+
+#box3{
+    background-image: url("https://images.pexels.com/photos/1408199/pexels-photo-1408199.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+}
+
+#box4{
+    grid-column: span 2;
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+}
+
+#box5{
+    background-image: url("https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#box6{
+    background-image: url("https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#box7{
+    background-image: url("https://images.pexels.com/photos/2099737/pexels-photo-2099737.jpeg?auto=compress&cs=tinysrgb&w=600");
+}

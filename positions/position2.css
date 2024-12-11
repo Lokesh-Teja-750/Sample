@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    /* When ever we are giving position fixed
+    we need to give width */
+    height: 10vh;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+}
+
+main{
+    height: 50vh;
+    background-color: aqua;
+}
+
+section{
+    height: 40vh;
+    background-color: aquamarine;
+}
+
+article{
+    height: 40vh;
+    background-color: blueviolet;
+}
+
+footer{
+    height: 40vh;
+    background-color: chartreuse;
+}
+
+section > button{
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+    border-width: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+
+    position: sticky;
+    top: 300px;
+}

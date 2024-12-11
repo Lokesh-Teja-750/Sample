@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to left, black,blue,yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, green,blue,orange);
+    border-radius: 50%;
+    transition: all;
+    transition-duration: 2s;
+    border: 5px solid black;
+    
+
+}
+
+.outer > .inner:hover{
+    transform: translateX(80vw) rotate(360deg) skew(10deg);
+    /* transform: skew(10deg); */
+    /* transform: scale(2); */
+}

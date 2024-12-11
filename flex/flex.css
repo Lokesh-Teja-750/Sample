@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 1000px;
+    border: 3px dotted black;
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; */
+
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 2px;
+
+
+}
+
+.container > .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+}
